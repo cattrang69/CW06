@@ -1,0 +1,14 @@
+-- Database: dle46
+-- Table Structure for CW-06
+
+CREATE TABLE employees (
+    emp_id INT(11) NOT NULL AUTO_INCREMENT,
+    emp_name VARCHAR(100) NOT NULL,
+    job_name VARCHAR(100) NOT NULL,
+    salary DECIMAL(10,2) NOT NULL,
+    hire_date DATE NOT NULL,
+    PRIMARY KEY (emp_id)
+);
+
+-- Starter Query
+SELECT * FROM employees;
